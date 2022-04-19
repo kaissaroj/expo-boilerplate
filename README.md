@@ -7,6 +7,7 @@ When I start any expo project, most of the initial structures and libaries which
 Packages Included:
 
     "@react-native-async-storage/async-storage": "~1.15.0",
+    "@react-navigation/bottom-tabs": "^6.3.1",
     "@react-navigation/native": "^6.0.8",
     "@react-navigation/native-stack": "^6.5.0",
     "axios": "^0.26.0",
