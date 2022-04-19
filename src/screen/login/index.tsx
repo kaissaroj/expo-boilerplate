@@ -6,10 +6,10 @@ import * as Haptics from "expo-haptics";
 interface LoginScreenProps {}
 
 const LoginScreen = (props: LoginScreenProps) => {
-  const { push }: any = useNavigation();
+  const { navigate }: any = useNavigation();
   const goToHome = () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-    push("Home");
+    navigate("Tab", { screen: "Home" });
   };
   return (
     <View style={styles.container}>
